@@ -1,4 +1,4 @@
-# Swift-Basics-Examination
+# iOS&Swift-Development-Basics-Examination
 Fork this repository, complete the tasks, submit a pull request when you're done, and maybe I'll hire you. Mwahahaha!
 
 This repository is just a series of tasks to test your profiency in iOS programming and some other areas. 
