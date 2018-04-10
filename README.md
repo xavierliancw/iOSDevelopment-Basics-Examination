@@ -1,5 +1,5 @@
 # iOS & Swift Development Basics Examination
-Fork this repository, complete the tasks, submit a pull request when you're done, and maybe I'll hire you. Mwahahaha!
+Fork this repository, complete the tasks, and submit a pull request when you're done.
 
 This repository is just a series of tasks to test your profiency in iOS programming and some other areas. 
 As you go through the tasks, be sure to fix any bugs that may pop up.
@@ -10,18 +10,18 @@ If you can't finish everything within the allotted time, that's ok.
 ## General Rules:
 - [ ] You are not allowed to modify Gimme.swift
 - [ ] You have to finish Task 1 first and Task "submission" last, otherwise, work in whatever order you like
-- [ ] You don't even have to finish everything, you can pick and choose the most interesting ones/the ones you think will best showcase your skills (of course, finishing more is obviously better for you) (this exam isn't even designed to be completed anyways)
+- [ ] You don't have to finish everything, you can pick and choose the most interesting ones/the ones you think will best showcase your skills (of course, finishing more is obviously better for you)
 - [ ] Pretend this is a real production program
 - [ ] Pretend you're working with a team consisting of other iOS developers that you hardly know
 - [ ] Feel free to Google things/use Stack Overflow/ask me if you need help
 - [ ] Any bugs you encounter should be fixed (talk about them in your commits)
 - [ ] Any memory leaks you encounter should also be fixed (talk about them in your commits)
 - [ ] Feel free to break any of the rules here to fix bugs or memory leaks (talk about rules you broke in your commits)
-- [ ] When you start, the repo is perfect, so any bugs or memory leaks you encounter are your fault <img src="http://i0.kym-cdn.com/entries/icons/mobile/000/017/403/218_copy.jpg" alt="kappa face" height="15" >
-- [ ] Every time you finish a task, commit it to your repo with the task name in the commit message title (so your commit history should look like: "broccoli, carrot, kale, ...")
-- [ ] If you think this whole thing is a waste of time, let me know why
+- [ ] When you start, the repo is perfect, so any bugs or memory leaks you encounter are produced by you <img src="http://i0.kym-cdn.com/entries/icons/mobile/000/017/403/218_copy.jpg" alt="kappa face" height="15" >
+- [ ] Every time you finish a task, commit it to your repo with the task name in the commit message title (so your commit history should look like: "Task 1, broccoli, orange, kale, ...")
+- [ ] If you beleive this is a waste of time, let me know why
 - [ ] If you learn anything new, let me know in your commit messages
-- [ ] This is your chance to show off... so do it
+- [ ] Go ahead and show off, but don't go overboard (don't spend too much time on this)
 
 ### Task 1:
 - [ ] Read the general rules
@@ -105,7 +105,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Reset the star's size if it's going to grow past 12 times its original size
 - [ ] Persist the star's size between app launches
 
-### Task "marijuana"
+### Task "ivy"
 - [ ] Solve the travelling salesman problem
 - [ ] Give me full credit for your work
 
