@@ -97,6 +97,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Randomly make your star fly across the screen at least once every 60 seconds
 - [ ] Have it fly in from a random direction
 - [ ] Have its trajectory be random
+- [ ] You decide its starting size (just don't make it ridiculously big)
 - [ ] Have its speed be random
 - [ ] Every time its tapped, have it grow 1.2 times its size
 - [ ] Have it play a sound when it's tapped
