@@ -66,7 +66,8 @@ If you can't finish everything within the allotted time, that's ok.
 ### Task "broccoli":
 - [ ] Read the comments in Swiftly_Test_Your_MightTests.swift
 - [ ] Create your own unit test that tests whatever you want
-- [ ] Make sure it passes though
+- [ ] Make sure it passes
+- [ ] Name the unit test "testBroccoli"
 
 ### Task "kale":
 - [ ] Pass the first unit test
@@ -93,14 +94,16 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Make it so UI elements on TireVw don't overlap each other when switching to landscape
 
 ### Task "carambola":
-- [ ] Add an image of a star to the project
+- [ ] Add an image of any kind of star you like to the project
 - [ ] Randomly make your star fly across the screen at least once every 60 seconds
 - [ ] Have it fly in from a random direction
 - [ ] Have its trajectory be random
 - [ ] You decide its starting size (just don't make it ridiculously big)
 - [ ] Have its speed be random
 - [ ] Every time its tapped, have it grow 1.2 times its size
-- [ ] Have it play a sound when it's tapped
+- [ ] Have it play any sound you like when it's tapped
+- [ ] Reset the star's size if it's going to grow past 12 times its original size
+- [ ] Persist the star's size between app launches
 
 ### Task "marijuana"
 - [ ] Solve the travelling salesman problem
