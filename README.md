@@ -19,7 +19,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Feel free to break any of the rules here to fix bugs or memory leaks (talk about rules you broke in your commits)
 - [ ] When you start, the repo is good, so any bugs or memory leaks you encounter are produced by you <img src="http://i0.kym-cdn.com/entries/icons/mobile/000/017/403/218_copy.jpg" alt="kappa face" height="15" >
 - [ ] Every time you finish a task, commit it to your repo with the task name in the commit message title (so your commit history should look like: "Task 1, broccoli, orange, kale, ...")
-- [ ] If you beleive this is a waste of time, let me know why
+- [ ] If you believe this is a waste of time, let me know why
 - [ ] If you learn anything new, let me know in your commit messages
 - [ ] Go ahead and show off, but don't go overboard (don't spend too much time on this)
 
