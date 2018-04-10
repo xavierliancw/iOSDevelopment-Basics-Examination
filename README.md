@@ -17,7 +17,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Any bugs you encounter should be fixed (talk about them in your commits)
 - [ ] Any memory leaks you encounter should also be fixed (talk about them in your commits)
 - [ ] Feel free to break any of the rules here to fix bugs or memory leaks (talk about rules you broke in your commits)
-- [ ] When you start, the repo is perfect, so any bugs or memory leaks you encounter are produced by you <img src="http://i0.kym-cdn.com/entries/icons/mobile/000/017/403/218_copy.jpg" alt="kappa face" height="15" >
+- [ ] When you start, the repo is good, so any bugs or memory leaks you encounter are produced by you <img src="http://i0.kym-cdn.com/entries/icons/mobile/000/017/403/218_copy.jpg" alt="kappa face" height="15" >
 - [ ] Every time you finish a task, commit it to your repo with the task name in the commit message title (so your commit history should look like: "Task 1, broccoli, orange, kale, ...")
 - [ ] If you beleive this is a waste of time, let me know why
 - [ ] If you learn anything new, let me know in your commit messages
@@ -45,7 +45,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Cell height doesn't matter, just don't make them ridiculously tall while also making sure the numbers don't get cut off
 - [ ] Make all even numbered cells have a green background color
 - [ ] Make all odd numbered cells have a red background color
-- [ ] Make all numbered cells that are a multiple of 5 have a orange background color (fizzbuzz anyone? mwahaha!)
+- [ ] Make all numbered cells that are a multiple of 5 have a orange background color (fizzbuzz anyone?)
 - [ ] You should be able to scroll quickly without any visual bugs
 
 ### Task "papaya":
@@ -59,7 +59,7 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "rambutan":
 - [ ] Link the right button on the CVAutomobile cells to push VCNumberPushed (the new view controller slides in from the right)
-- [ ] When the view is summoned, use Gimme.the.loadingSequenceForThePushedVC()
+- [ ] When the view is summoned, call Gimme.the.loadingSequenceForThePushedVC()
 - [ ] Have the view controller adopt the SouperKoolDelegate protocol
 - [ ] Update the numberLbl property using the delegate
 
@@ -85,7 +85,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Create a function that has a callback
 - [ ] This function can do whatever you want (except crash the program)
 - [ ] Create this function anyhwere
-- [ ] Call this function on a background thread
+- [ ] Call this function on a background thread, and name the thread "weesnaw"
 - [ ] Consider using your function to fire off events for task "carambola"
 
 ## Bonus Tasks:
