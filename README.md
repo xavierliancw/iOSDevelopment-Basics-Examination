@@ -63,9 +63,10 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "rambutan":
 - [ ] Link the right button on the CVAutomobile cells to push VCNumberPushed (the new view controller slides in from the right)
-- [ ] When the view is summoned, call Gimme.the.loadingSequenceForThePushedVC()
 - [ ] Have the view controller adopt the SouperKoolDelegate protocol
+- [ ] When the view is summoned, call Gimme.the.loadingSequence(forThePushedVC:), giving the appropriate parameter
 - [ ] Update the numberLbl property using the delegate
+- [ ] In your commit message, describe what Gimme.the.loadingSequence(forThePushedVC:) is doing
 
 ### Task "broccoli":
 - [ ] Read the comments in Swiftly_Test_Your_MightTests.swift
