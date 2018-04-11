@@ -30,69 +30,33 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q9K-eP-js1">
                     <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
-                    <subviews>
-                        <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stroke_repeat_tread_texture" translatesAutoresizingMaskIntoConstraints="NO" id="Co0-P9-9U2">
-                            <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
-                        </imageView>
-                    </subviews>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="Co0-P9-9U2" firstAttribute="height" secondItem="Q9K-eP-js1" secondAttribute="height" id="1pa-Zw-1Zk"/>
                         <constraint firstAttribute="width" constant="100" id="RsQ-yc-m8X"/>
-                        <constraint firstItem="Co0-P9-9U2" firstAttribute="centerY" secondItem="Q9K-eP-js1" secondAttribute="centerY" id="T2t-IL-uVj"/>
-                        <constraint firstItem="Co0-P9-9U2" firstAttribute="width" secondItem="Q9K-eP-js1" secondAttribute="width" id="YBO-W4-D0B"/>
                         <constraint firstAttribute="height" constant="150" id="cR5-A9-Ezq"/>
-                        <constraint firstItem="Co0-P9-9U2" firstAttribute="centerX" secondItem="Q9K-eP-js1" secondAttribute="centerX" id="iuX-yN-n6v"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4V5-B4-MXq">
                     <rect key="frame" x="275" y="0.0" width="100" height="150"/>
-                    <subviews>
-                        <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stroke_repeat_tread_texture" translatesAutoresizingMaskIntoConstraints="NO" id="i8P-a2-cGC">
-                            <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
-                        </imageView>
-                    </subviews>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="i8P-a2-cGC" firstAttribute="centerX" secondItem="4V5-B4-MXq" secondAttribute="centerX" id="4uQ-jm-gdn"/>
                         <constraint firstAttribute="width" constant="100" id="TKs-R6-eoB"/>
-                        <constraint firstItem="i8P-a2-cGC" firstAttribute="height" secondItem="4V5-B4-MXq" secondAttribute="height" id="ba1-gc-qbt"/>
-                        <constraint firstItem="i8P-a2-cGC" firstAttribute="centerY" secondItem="4V5-B4-MXq" secondAttribute="centerY" id="hzb-Sa-kPX"/>
-                        <constraint firstItem="i8P-a2-cGC" firstAttribute="width" secondItem="4V5-B4-MXq" secondAttribute="width" id="kCc-6L-Ako"/>
                         <constraint firstAttribute="height" constant="150" id="mr3-54-KbD"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhm-Rk-eQs">
                     <rect key="frame" x="0.0" y="517" width="100" height="150"/>
-                    <subviews>
-                        <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stroke_repeat_tread_texture" translatesAutoresizingMaskIntoConstraints="NO" id="RJa-fC-D3o">
-                            <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
-                        </imageView>
-                    </subviews>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="150" id="P8K-ma-2ra"/>
-                        <constraint firstItem="RJa-fC-D3o" firstAttribute="centerX" secondItem="nhm-Rk-eQs" secondAttribute="centerX" id="Q0K-3w-bxB"/>
                         <constraint firstAttribute="width" constant="100" id="U2m-du-Xba"/>
-                        <constraint firstItem="RJa-fC-D3o" firstAttribute="centerY" secondItem="nhm-Rk-eQs" secondAttribute="centerY" id="m7h-bq-iRK"/>
-                        <constraint firstItem="RJa-fC-D3o" firstAttribute="height" secondItem="nhm-Rk-eQs" secondAttribute="height" id="onc-94-QrN"/>
-                        <constraint firstItem="RJa-fC-D3o" firstAttribute="width" secondItem="nhm-Rk-eQs" secondAttribute="width" id="t2s-JM-MpJ"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gb2-OG-1fd">
                     <rect key="frame" x="275" y="517" width="100" height="150"/>
-                    <subviews>
-                        <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stroke_repeat_tread_texture" translatesAutoresizingMaskIntoConstraints="NO" id="eoC-3U-uN4">
-                            <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
-                        </imageView>
-                    </subviews>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="3Ik-p4-Okc"/>
-                        <constraint firstItem="eoC-3U-uN4" firstAttribute="centerY" secondItem="Gb2-OG-1fd" secondAttribute="centerY" id="O3F-gF-RC0"/>
-                        <constraint firstItem="eoC-3U-uN4" firstAttribute="height" secondItem="Gb2-OG-1fd" secondAttribute="height" id="P1h-th-UgK"/>
-                        <constraint firstItem="eoC-3U-uN4" firstAttribute="centerX" secondItem="Gb2-OG-1fd" secondAttribute="centerX" id="YIM-UC-y9h"/>
-                        <constraint firstItem="eoC-3U-uN4" firstAttribute="width" secondItem="Gb2-OG-1fd" secondAttribute="width" id="cWF-Ut-tSz"/>
                         <constraint firstAttribute="height" constant="150" id="eBJ-jc-yzz"/>
                     </constraints>
                 </view>
@@ -195,7 +159,4 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
-    <resources>
-        <image name="stroke_repeat_tread_texture" width="145" height="408"/>
-    </resources>
 </document>
