@@ -88,6 +88,11 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Call this function on a background thread, and name the thread "weesnaw"
 - [ ] Consider using your function to fire off events for task "carambola"
 
+### Task "submission":
+- [ ] Merge branch "submission" into your project
+- [ ] Submit a pull request to incorporate your work into the "submission" branch
+- [ ] Pretend the work you're submitting is going straight to the App Store (in the sense that it's finalized and ready for anyone to use) (don't archive, or actually prep the repository for App Store review)
+
 ## Bonus Tasks:
 
 ### Task "strawberry":
@@ -95,7 +100,7 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "carambola":
 - [ ] Add an image of any kind of star you like to the project
-- [ ] Randomly make your star fly across the screen at least once every 60 seconds
+- [ ] Randomly have your star fly across the screen at least once every 60 seconds
 - [ ] Have it fly in from a random direction
 - [ ] Have its trajectory be random
 - [ ] You decide its starting size (just don't make it ridiculously big)
@@ -105,7 +110,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Reset the star's size if it's going to grow past 12 times its original size
 - [ ] Persist the star's size between app launches
 
-### Task "ivy"
+### Task "cactus"
 - [ ] Solve the travelling salesman problem
 - [ ] Give me full credit for your work
 
