@@ -127,6 +127,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Replace it with a fixed width constraint with constant 100
 - [ ] Remove the 1:1 aspect ratio constraint fon the "Push" button in CVAutomobile.xib
 - [ ] Replace it with a fixed width constraint with constant 100
+- [ ] When committing, if your git client auto generates your commit message, use that
 
 ### Task "cactus"
 - [ ] Solve the travelling salesman problem
