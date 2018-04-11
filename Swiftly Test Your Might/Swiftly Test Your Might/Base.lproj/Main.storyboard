@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="VCMain" customModule="Swiftly_Test_Your_Might" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Hi-du-6PT">
+                                <rect key="frame" x="37.5" y="76.5" width="300" height="534"/>
+                                <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Hi-du-6PT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aob-x1-iAc"/>
+                            <constraint firstItem="7Hi-du-6PT" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mke-zq-J2x"/>
+                            <constraint firstItem="7Hi-du-6PT" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.8" id="mlb-jT-VaU"/>
+                            <constraint firstItem="7Hi-du-6PT" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="n4P-9d-878"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Number Pushed-->
+        <scene sceneID="Sp2-J4-g9z">
+            <objects>
+                <viewController id="pYw-ev-kvv" customClass="VCNumberPushed" customModule="Swiftly_Test_Your_Might" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TmO-cd-gFO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bib-GY-zlK">
+                                <rect key="frame" x="37.5" y="76.5" width="300" height="534"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Bib-GY-zlK" firstAttribute="height" secondItem="TmO-cd-gFO" secondAttribute="height" multiplier="0.8" id="12w-zf-KQm"/>
+                            <constraint firstItem="Bib-GY-zlK" firstAttribute="centerY" secondItem="vki-aS-Ngx" secondAttribute="centerY" id="E9U-dD-kwp"/>
+                            <constraint firstItem="Bib-GY-zlK" firstAttribute="centerX" secondItem="vki-aS-Ngx" secondAttribute="centerX" id="Yt3-tM-2I4"/>
+                            <constraint firstItem="Bib-GY-zlK" firstAttribute="width" secondItem="TmO-cd-gFO" secondAttribute="width" multiplier="0.8" id="yZp-LO-5ug"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vki-aS-Ngx"/>
+                    </view>
+                    <connections>
+                        <outlet property="numberLbl" destination="Bib-GY-zlK" id="7ag-Gk-aZI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ash-Pe-fN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="34"/>
+        </scene>
+        <!--Tire Modal-->
+        <scene sceneID="N5F-WL-vk8">
+            <objects>
+                <viewController id="Dqj-xf-9w7" customClass="VCTireModal" customModule="Swiftly_Test_Your_Might" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IGz-55-0fP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ku-sZ-dxn" customClass="VwTire" customModule="Swiftly_Test_Your_Might" customModuleProvider="target">
+                                <rect key="frame" x="37" y="76.5" width="300" height="534"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2ku-sZ-dxn" firstAttribute="centerX" secondItem="DFg-2g-VcN" secondAttribute="centerX" id="Dpq-FF-Efc"/>
+                            <constraint firstItem="2ku-sZ-dxn" firstAttribute="centerY" secondItem="DFg-2g-VcN" secondAttribute="centerY" id="E1w-Fy-oYa"/>
+                            <constraint firstItem="2ku-sZ-dxn" firstAttribute="width" secondItem="IGz-55-0fP" secondAttribute="width" multiplier="0.8" id="NRw-gs-K2i"/>
+                            <constraint firstItem="2ku-sZ-dxn" firstAttribute="height" secondItem="IGz-55-0fP" secondAttribute="height" multiplier="0.8" id="s28-ig-KNy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DFg-2g-VcN"/>
+                    </view>
+                    <connections>
+                        <outlet property="tireVw" destination="2ku-sZ-dxn" id="X4Y-ie-g17"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tn4-ph-7Nh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="731"/>
+        </scene>
+    </scenes>
+</document>
