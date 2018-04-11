@@ -1,4 +1,4 @@
-# iOS & Swift Development Basics Examination (ver. 1)
+# iOS & Swift Development Basics Examination (rev. 8)
 Fork this repository, complete the tasks, and submit a pull request when you're done.
 
 This repository is just a series of tasks to test your profiency in iOS programming and some other areas. 
@@ -25,8 +25,10 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task 1:
 - [ ] Read the general rules
-- [ ] Fork from the master branch on Git (create a new GitHub account if necessary)
+- [ ] Fork this repository (create a new GitHub account if necessary)
+- [ ] Work out of master (or start from the latest master commit)
 - [ ] Run the project on your computer
+- [ ] Make a random comment and commit with the commit title "Task 1"
 
 ### Task "banana":
 - [ ] Create a collection view in the magenta area on VCMain.swift
@@ -36,8 +38,9 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "orange":
 - [ ] Fill section 0 of the collection view with CVAutomobile cells
-- [ ] Populate the cells using the return value from Gimme.the.collectionViewDataForSection0() using the cell's populate(using:_) function
-- [ ] Use CVAutomobile's intrinsic content size to define the height of the cell
+- [ ] Populate the cells using the return value from Gimme.the.collectionViewDataForSection0() using the cell's populate(using:\_) function
+- [ ] Give CVAutomobile a static function that returns a height equivalent to its intrinsic height
+- [ ] Use that static function to define each CVAutomobile cell's height in VCMain
 
 ### Task "tomato":
 - [ ] Fill section 1 of the collection view with data from Gimme.the.collectionViewDataForSection1()
@@ -45,7 +48,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Cell height doesn't matter, just don't make them ridiculously tall while also making sure the numbers don't get cut off
 - [ ] Make all even numbered cells have a green background color
 - [ ] Make all odd numbered cells have a red background color
-- [ ] Make all numbered cells that are a multiple of 5 have a orange background color (fizzbuzz anyone?)
+- [ ] Make all numbered cells that are a multiple of 23 have a orange background color (fizzbuzz anyone?)
 - [ ] You should be able to scroll quickly without any visual bugs
 
 ### Task "papaya":
@@ -59,9 +62,10 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "rambutan":
 - [ ] Link the right button on the CVAutomobile cells to push VCNumberPushed (the new view controller slides in from the right)
-- [ ] When the view is summoned, call Gimme.the.loadingSequenceForThePushedVC()
 - [ ] Have the view controller adopt the SouperKoolDelegate protocol
+- [ ] When the view is summoned, call Gimme.the.loadingSequence(forThePushedVC:), giving the appropriate parameter
 - [ ] Update the numberLbl property using the delegate
+- [ ] In your commit message, describe what Gimme.the.loadingSequence(forThePushedVC:) is doing
 
 ### Task "broccoli":
 - [ ] Read the comments in Swiftly_Test_Your_MightTests.swift
@@ -90,7 +94,7 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "potato":
 - [ ] Merge branch "submission" into your project fork
-- [ ] Keep all of the new features and functionality that branch "submission" implemented and introduced
+- [ ] Keep all of the new features and functionality that branch "submission" implemented and introduced while keeping all of the work you've done as well
 
 ### Task "submission":
 - [ ] Make sure you can build and run your project fork
@@ -118,6 +122,13 @@ If you can't finish everything within the allotted time, that's ok.
 ### Task "pepper":
 - [ ] Merge branch "pepper" into your work
 - [ ] Successfully build and run your project afterwards
+- [ ] Make sure all features from "pepper" are not lost in the merge
+- [ ] Make sure none of your work is lost either
+- [ ] Remove the 1:1 aspect ratio constraint on the "Modal" button in CVAutomobile.xib
+- [ ] Replace it with a fixed width constraint with constant 100
+- [ ] Remove the 1:1 aspect ratio constraint fon the "Push" button in CVAutomobile.xib
+- [ ] Replace it with a fixed width constraint with constant 100
+- [ ] When committing, if your git client auto generates your commit message, use that
 
 ### Task "cactus"
 - [ ] Solve the travelling salesman problem

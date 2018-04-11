@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Hey, have fun!
 class VCMain: UIViewController
 {
     override func viewDidLoad()
