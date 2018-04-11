@@ -118,6 +118,8 @@ If you can't finish everything within the allotted time, that's ok.
 ### Task "pepper":
 - [ ] Merge branch "pepper" into your work
 - [ ] Successfully build and run your project afterwards
+- [ ] Make sure all features from "pepper" are not lost in the merge
+- [ ] Make sure none of your work is lost either
 
 ### Task "cactus"
 - [ ] Solve the travelling salesman problem
