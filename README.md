@@ -58,6 +58,7 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "durian":
 - [ ] Visually represent punctured tires on VwTire by making the appropriate rectangle red
+- [ ] If you completed task "pepper" beforehand, then adjust all the image view alphas in VwTire to 0.5 so the red shows through
 - [ ] Change the date format for each tire's label to 05 Apr 18 format (not this exact date, obviously)
 
 ### Task "rambutan":
