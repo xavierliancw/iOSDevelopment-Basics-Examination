@@ -90,8 +90,10 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "submission":
 - [ ] Merge branch "submission" into your project
-- [ ] Submit a pull request to incorporate your work into the "submission" branch
+- [ ] All functionality that branch "submission" has must still be functional post-merge (meaning, don't lose the work of others)
 - [ ] Pretend the work you're submitting is going straight to the App Store (in the sense that it's finalized and ready for anyone to use) (don't archive, or actually prep the repository for App Store review)
+- [ ] Consider completing task "pepper" before you submit
+- [ ] Submit a pull request to incorporate your work into the "submission" branch
 
 ## Bonus Tasks:
 
@@ -109,6 +111,10 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Have it play any sound you like when it's tapped
 - [ ] Reset the star's size if it's going to grow past 12 times its original size
 - [ ] Persist the star's size between app launches
+
+### Task "pepper":
+- [ ] Merge branch "pepper" into your work
+- [ ] Successfully build and run your project afterwards
 
 ### Task "cactus"
 - [ ] Solve the travelling salesman problem
