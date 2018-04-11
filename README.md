@@ -38,8 +38,9 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "orange":
 - [ ] Fill section 0 of the collection view with CVAutomobile cells
-- [ ] Populate the cells using the return value from Gimme.the.collectionViewDataForSection0() using the cell's populate(using:_) function
-- [ ] Use CVAutomobile's intrinsic content size to define the height of the cell
+- [ ] Populate the cells using the return value from Gimme.the.collectionViewDataForSection0() using the cell's populate(using:\_) function
+- [ ] Give CVAutomobile a static function that returns a height equivalent to its intrinsic height
+- [ ] Use that static function to define each CVAutomobile cell's height in VCMain
 
 ### Task "tomato":
 - [ ] Fill section 1 of the collection view with data from Gimme.the.collectionViewDataForSection1()
