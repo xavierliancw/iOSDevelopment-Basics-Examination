@@ -30,11 +30,13 @@ class CVAutomobile: UICollectionViewCell
     //MARK:- UI Business
     
     override var intrinsicContentSize: CGSize {
-        return CGSize(width: 0, height: 100)
+        return CGSize(width: 0, height: 150)
     }
     
     override func awakeFromNib()
     {
         super.awakeFromNib()
+        modalBt.backgroundColor = .purple
+        pushBt.backgroundColor = .brown
     }
 }
