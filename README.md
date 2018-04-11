@@ -90,7 +90,7 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task "potato":
 - [ ] Merge branch "submission" into your project fork
-- [ ] Keep all of the new features and functionality that branch "submission" implemented and introduced
+- [ ] Keep all of the new features and functionality that branch "submission" implemented and introduced while keeping all of the work you've done as well
 
 ### Task "submission":
 - [ ] Make sure you can build and run your project fork
