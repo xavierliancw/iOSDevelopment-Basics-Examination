@@ -25,7 +25,7 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task 1:
 - [ ] Read the general rules
-- [ ] Fork from Git (create a new GitHub account if necessary)
+- [ ] Fork from the master branch on Git (create a new GitHub account if necessary)
 - [ ] Run the project on your computer
 
 ### Task "banana":
@@ -88,10 +88,13 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Call this function on a background thread, and name the thread "weesnaw"
 - [ ] Consider using your function to fire off events for task "carambola"
 
+### Task "potato":
+- [ ] Merge branch "submission" into your project fork
+- [ ] Keep all of the new features and functionality that branch "submission" implemented and introduced
+
 ### Task "submission":
-- [ ] Merge branch "submission" into your project
-- [ ] All functionality that branch "submission" has must still be functional post-merge (meaning, don't lose the work of others)
-- [ ] Pretend the work you're submitting is going straight to the App Store (in the sense that it's finalized and ready for anyone to use) (don't archive, or actually prep the repository for App Store review)
+- [ ] Make sure you can build and run your project fork
+- [ ] Try and make sure there are no bugs or memory leaks
 - [ ] Consider completing task "pepper" before you submit
 - [ ] Submit a pull request to incorporate your work into the "submission" branch
 
