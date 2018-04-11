@@ -123,7 +123,7 @@ If you can't finish everything within the allotted time, that's ok.
 ### Task "cornucopia":
 - [ ] Add a label or textview to display an Automobile's description
 - [ ] Constrain the new label so that it sits just under the modelLbl, is centered horizontally with the modelLbl, and has the same width as the modelLbl
-- [ ] Dynamically size each CVAutomobile cell so that the description is not cut off
+- [ ] Dynamically size each CVAutomobile cell so that the description is not cut off without adjusting font size
 
 ### Task "momordicaDioica"
 - [ ] Pass the last unit test
