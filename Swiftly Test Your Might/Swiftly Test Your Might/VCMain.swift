@@ -15,4 +15,10 @@ class VCMain: UIViewController
     {
         super.viewDidLoad()
     }
+    
+    override func didReceiveMemoryWarning()
+    {
+        super.didReceiveMemoryWarning()
+        print("VCMain is reporting that the device is low on RAM!")
+    }
 }
