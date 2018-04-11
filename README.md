@@ -48,7 +48,7 @@ If you can't finish everything within the allotted time, that's ok.
 - [ ] Cell height doesn't matter, just don't make them ridiculously tall while also making sure the numbers don't get cut off
 - [ ] Make all even numbered cells have a green background color
 - [ ] Make all odd numbered cells have a red background color
-- [ ] Make all numbered cells that are a multiple of 5 have a orange background color (fizzbuzz anyone?)
+- [ ] Make all numbered cells that are a multiple of 23 have a orange background color (fizzbuzz anyone?)
 - [ ] You should be able to scroll quickly without any visual bugs
 
 ### Task "papaya":
