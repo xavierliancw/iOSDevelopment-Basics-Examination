@@ -11,7 +11,7 @@ import Foundation
 class Gimme
 {
     static let the = Gimme()
-    var delegate: SouperKoolDelegate?
+    private var delegate: SouperKoolDelegate?
     
     func collectionViewDataForSection0() -> [Automobile]
     {
@@ -52,11 +52,12 @@ class Gimme
         }
     }
     
-    func loadingSequenceForThePushedVC()
+    func loadingSequenceFor(thePushedVC: SouperKoolDelegate)
     {
+        delegate = thePushedVC
         Timer.scheduledTimer(withTimeInterval: 1, repeats: true)
         { (timer) in
-            if Int(arc4random_uniform(3)) > 2
+            if Int(arc4random_uniform(3)) > 1
             {
                 let hmmm = arc4random_uniform(2048)
                 DispatchQueue(label: "laugh out loud \(hmmm)").async {
