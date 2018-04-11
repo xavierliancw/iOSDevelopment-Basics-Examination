@@ -1,4 +1,4 @@
-# iOS & Swift Development Basics Examination (rev. 3)
+# iOS & Swift Development Basics Examination (rev. 7)
 Fork this repository, complete the tasks, and submit a pull request when you're done.
 
 This repository is just a series of tasks to test your profiency in iOS programming and some other areas. 
