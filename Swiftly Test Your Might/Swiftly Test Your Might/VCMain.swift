@@ -14,10 +14,4 @@ class VCMain: UIViewController
     {
         super.viewDidLoad()
     }
-
-    override func didReceiveMemoryWarning()
-    {
-        super.didReceiveMemoryWarning()
-        print("VCMain is warning that there is a shortage of available RAM!")
-    }
 }
