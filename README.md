@@ -25,8 +25,10 @@ If you can't finish everything within the allotted time, that's ok.
 
 ### Task 1:
 - [ ] Read the general rules
-- [ ] Fork from the master branch on Git (create a new GitHub account if necessary)
+- [ ] Fork this repository (create a new GitHub account if necessary)
+- [ ] Work out of master (or start from the latest master commit)
 - [ ] Run the project on your computer
+- [ ] Make a random comment and commit with the commit title "Task 1"
 
 ### Task "banana":
 - [ ] Create a collection view in the magenta area on VCMain.swift
