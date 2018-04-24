@@ -33,7 +33,6 @@ func algorithm4(_ json: Data) -> [Spinach]
 }
 struct Spinach: Codable
 {
-    print("Running algorithm5!")
     let fresh: Bool
     let variety: String
 }
